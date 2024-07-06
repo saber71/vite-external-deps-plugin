@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      '@heraclius/js-tools':
-        specifier: ^0.1.0
-        version: 0.1.0
     devDependencies:
       '@types/node':
         specifier: ^20.14.10
@@ -184,9 +180,6 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
-
-  '@heraclius/js-tools@0.1.0':
-    resolution: {integrity: sha512-Ymp2ay3SjRdlXdYi3oWHPa4hvr8vhdOuXMzcWtgqcvn+atdt7HOkNsyMVHcz4NOFYkibxbgxZjkeDqV8oCpyNQ==}
 
   '@jest/schemas@29.6.3':
     resolution: {integrity: sha512-mo5j5X+jIZmJQveBKeS/clAueipV7KgiX1vMgCxam1RNYiqE1w62n0/tJJnHtjW8ZHcQco5gY85jA3mi0L+nSA==}
@@ -1113,8 +1106,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
-
-  '@heraclius/js-tools@0.1.0': {}
 
   '@jest/schemas@29.6.3':
     dependencies:
