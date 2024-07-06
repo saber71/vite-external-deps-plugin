@@ -1,0 +1,11 @@
+{
+  "name": "@heraclius/external-deps-plugin",
+  "peerDependencies": {
+    "vite": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.10",
+    "unplugin-swc": "^1.5.1",
+    "vite": "^5.3.3"
+  }
+}

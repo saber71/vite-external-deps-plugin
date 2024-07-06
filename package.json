@@ -1,0 +1,28 @@
+{
+  "name": "@heraclius/external-deps-plugin",
+  "version": "0.1.0",
+  "description": "Vite插件。它的主要功能是从 Vite 的打包过程中排除 `package.json` 文件中列出的 `dependencies` 和 `peerDependencies` 依赖",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "unplugin-swc": "^1.5.1",
+    "vite": "^5.3.3",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "vite": "^5.3.3"
+  }
+}
