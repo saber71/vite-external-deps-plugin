@@ -10,11 +10,11 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10",
-    "unplugin-swc": "^1.5.1",
-    "vite": "^5.3.3",
-    "vite-plugin-dts": "^3.9.1",
-    "vitest": "^2.0.2"
+    "@types/node": "latest",
+    "unplugin-swc": "latest",
+    "vite": "latest",
+    "vite-plugin-dts": "latest",
+    "vitest": "latest"
   },
   "publishConfig": {
     "access": "public"
@@ -23,6 +23,6 @@
     "dist"
   ],
   "peerDependencies": {
-    "vite": "^5.3.3"
+    "vite": "latest"
   }
 }
