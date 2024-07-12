@@ -4,8 +4,8 @@
     "vite": "latest"
   },
   "dependencies": {
-    "@types/node": "latest",
-    "unplugin-swc": "latest",
+    "@types/node": "^20.14.10",
+    "unplugin-swc": "^1.5.1",
     "vite": "latest"
   }
 }
